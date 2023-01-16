@@ -3,7 +3,7 @@ h1{
     font-family: 'Montserrat';
     font-size: 3.5rem;
     line-height: 1.5;
-    color: white
+    color: white;
 }
 h2{
     font-family: 'Montserrat';
@@ -152,5 +152,19 @@ font-weight: bold;
     text-align: center;
     margin: auto;
     width: 100;
-
+}
+@media (max-width: 900px) {
+    h1{
+        font-weight: bold;
+        font-family: 'Montserrat';
+        font-size: 2rem;
+        line-height: 1.5;
+        color: white;
+    }
+    h2{
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }
